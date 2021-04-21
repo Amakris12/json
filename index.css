@@ -1,14 +1,19 @@
 body{
-    background-color: gainsboro;
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%2314141c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23202030' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%232c2d47' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23393b5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23464977' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+h1{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 #head{
-    color: black;
     text-align: center;
     font-size: 4rem;
     box-shadow: 2px 2px 2px 2px black;
 }
 #demo{
-    color: black;
     text-align: center;
     text-decoration: underline;
     box-shadow: 2px 2px 2px 2px black;
@@ -33,4 +38,17 @@ body{
 }
 #kitty{
     text-align: left;
+}
+#mom{
+    width: 50rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#list{
+    text-align: center;
+    font-size: 3rem;
 }
